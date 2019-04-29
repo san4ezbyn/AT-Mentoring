@@ -527,6 +527,12 @@
       <change afterPath="$PROJECT_DIR$/../untitled/out/production/untitled/com/company/Activatable.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/out/production/untitled/com/company/Loadable.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/src/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AT_Salad/cooking/salad/CookSalad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AT_Salad/cooking/salad/CookSalad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AT_Salad/salad/Recepie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AT_Salad/salad/Recepie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cooking/salad/CookSalad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cooking/salad/CookSalad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/salad/Recepie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/salad/Recepie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Polymorphizm/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Polymorphizm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Archer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Archer.class" afterDir="false" />
@@ -565,12 +571,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="java" value="5062" />
+          <entry key="java" value="5166" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5062" />
+          <entry key="JAVA" value="5166" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
@@ -578,25 +584,25 @@
         <counts>
           <entry key="iml" value="2" />
           <entry key="java" value="11" />
-          <entry key="txt" value="7" />
+          <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
           <entry key="JAVA" value="11" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cooking/salad/CookSalad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="56" column="41" lean-forward="true" selection-start-line="55" selection-start-column="59" selection-end-line="56" selection-end-column="41" />
+            <state relative-caret-position="595">
+              <caret line="122" column="76" lean-forward="true" selection-start-line="122" selection-start-column="76" selection-end-line="122" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -604,11 +610,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/salad/Recepie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="221">
+              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -702,7 +708,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -719,8 +725,8 @@
         <option value="$PROJECT_DIR$/src/cooking/salad/Task2.java" />
         <option value="$PROJECT_DIR$/src/salad/SaladMenu.java" />
         <option value="$PROJECT_DIR$/src/salad/SearchVeg.java" />
-        <option value="$PROJECT_DIR$/src/salad/Recepie.java" />
         <option value="$PROJECT_DIR$/src/cooking/salad/CookSalad.java" />
+        <option value="$PROJECT_DIR$/src/salad/Recepie.java" />
       </list>
     </option>
   </component>
@@ -774,7 +780,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556539555348" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556542528832" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -876,7 +882,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -1061,23 +1067,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atMentoring.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/salad/Recepie.java">
+    <entry file="file://$PROJECT_DIR$/src/cooking/salad/CookSalad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="595">
+          <caret line="122" column="76" lean-forward="true" selection-start-line="122" selection-start-column="76" selection-end-line="122" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cooking/salad/CookSalad.java">
+    <entry file="file://$PROJECT_DIR$/atMentoring.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/salad/Recepie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="56" column="41" lean-forward="true" selection-start-line="55" selection-start-column="59" selection-end-line="56" selection-end-column="41" />
+        <state relative-caret-position="221">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
