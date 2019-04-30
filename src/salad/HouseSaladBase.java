@@ -1,6 +1,6 @@
 package salad;
 
-public class HouseSaladBase implements Filling {
+public abstract class HouseSaladBase implements Filling {
 
     private Filling filling;
 

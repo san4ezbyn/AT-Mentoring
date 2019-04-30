@@ -1,12 +1,12 @@
-package utils;
+package entities;
 
-public abstract class Vegatables {
+public class Vegetable {
 
     private String name;
     private int weight;
     private int calories;
 
-    public Vegatables(String name, int weight, int calories) {
+    public Vegetable(String name, int weight, int calories) {
         this.name = name;
         this.weight = weight;
         this.calories = calories;

@@ -1,13 +1,11 @@
-package vegs;
+package entities;
 
-import utils.Vegatables;
-
-public class Cucumber extends Vegatables {
+public class Cucumber extends Vegetable {
 
     private String type;
 
     public Cucumber(String name, int weight, int calories, String type) {
-        super(name, weight, calories);
+        super(name, 80, 30);
         this.type = type;
     }
 
@@ -17,5 +15,8 @@ public class Cucumber extends Vegatables {
 
     public void setType(String type) {
         this.type = type;
+    }
+    public String getInfo() {
+        return "cucumber is "+super.getInfo();
     }
 }

@@ -1,13 +1,11 @@
-package vegs;
+package entities;
 
-import utils.Vegatables;
-
-public class Potato extends Vegatables {
+public class Potato extends Vegetable {
 
     private String shape;
 
     public Potato(String name, int weight, int calories, String shape) {
-        super(name, weight, calories);
+        super(name, 100, 70);
         this.shape = shape;
     }
 
@@ -17,5 +15,8 @@ public class Potato extends Vegatables {
 
     public void setShape(String shape) {
         this.shape = shape;
+    }
+    public String getInfo() {
+        return "potato is "+super.getInfo();
     }
 }
