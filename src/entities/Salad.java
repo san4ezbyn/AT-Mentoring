@@ -1,15 +1,22 @@
 package entities;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public class Salad extends Vegetable{
+public class Salad {
 
+    private List<Vegetable> mixedVegs;
 
-    public Salad(String name, int weight, int calories) {
-        super(name, weight, calories);
+    public Salad(List<Vegetable> mixedVegs) {
+        this.mixedVegs = mixedVegs;
     }
-    List<Salad> vegetables=new ArrayList<>();
+
+    public List<Vegetable> getMixedVegs() {
+        return mixedVegs;
+    }
+
+    public void setMixedVegs(List<Vegetable> mixedVegs) {
+        this.mixedVegs = mixedVegs;
+    }
 
 
 }

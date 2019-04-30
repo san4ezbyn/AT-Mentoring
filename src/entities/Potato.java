@@ -5,7 +5,7 @@ public class Potato extends Vegetable {
     private String shape;
 
     public Potato(String name, int weight, int calories, String shape) {
-        super(name, 100, 70);
+        super(name, weight, calories);
         this.shape = shape;
     }
 

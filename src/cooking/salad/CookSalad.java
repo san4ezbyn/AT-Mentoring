@@ -1,11 +1,29 @@
 package cooking.salad;
 
+import entities.*;
 import salad.*;
+import service.Cook;
+import service.Sorter;
+import utils.ConsolePrinter;
 
 import java.io.*;
 import java.util.*;
 
 public class CookSalad {
+    
+    private static List<Vegetable> vegs = new ArrayList<>();
+
+    static {
+        vegs.add(new Potato("Potato", 100, 50, "oval"));
+        vegs.add(new Potato("Potato", 120, 60, "oval"));
+        vegs.add(new Tomato("Tomato", 80, 40, 12));
+        vegs.add(new Tomato("Tomato", 70, 45, 11));
+        vegs.add(new Cucumber("Cucumber", 60, 10, "fresh"));
+    }
+
+    private static Salad salad;
+    private static Cook cook = new Cook();
+    private static Sorter sorter = new Sorter();
 
     public static void main(String[] args) {
 
@@ -18,15 +36,16 @@ public class CookSalad {
 
         List<SaladMenu> ingredientsList = new ArrayList<>();
 
+
         boolean actionSelect = true;
         try {
             while (actionSelect) {
 
-                System.out.println("\n1. =add a veg to the list of ingredients");
-                System.out.println("2. =find a veg by vegName");
-                System.out.println("3. =show the list");
+
+                System.out.println("1. =find a veg by vegName");
+                System.out.println("3. =cook salad");
                 System.out.println("4. =total calories");
-                System.out.println("5. =sort and show the largest N of cals");
+                System.out.println("5. =sort and show the ingreds by weight");
                 System.out.println("6. = create/write a text into a file");
                 System.out.println("0. =exit");
 
@@ -41,54 +60,26 @@ public class CookSalad {
                         break;
 
                     case 1:
-                        System.out.println("Enter a veg's name:");
-                        String vegName = scanner.next();
-                        System.out.println("Enter the N of calories:");
-                        int calories = scanner.nextInt();
-                        System.out.println("Select type of veg: Fresh or Prinkled");
-                        String typeOfIngredients = scanner.next();
 
-                        ingredientsList.add(new SaladMenu(vegName, calories, typeOfIngredients));
-
-                        break;
-
-                    case 2:
                         System.out.println("Enter a vegName to search");
                         String name = scanner.next();
-                        SearchVeg.findVeg(name, ingredientsList);
+                        ConsolePrinter.consolPrt(sorter.findByName(vegs, name));
                         break;
 
                     case 3:
-                        for (SaladMenu saladType : ingredientsList) {
-                            System.out.println(saladType.getInfo());
-                        }
+
+                        salad = cook.cookSalad(vegs);
 
                         break;
 
                     case 4:
-                        int totalCals;
-                        for (SaladMenu saladType : ingredientsList) ;
 
-                        totalCals = ingredientsList
-                                .stream()
-                                .mapToInt(Ingredients::getCalories)
-                                .sum();
-
-                        System.out.println("Salad has " + totalCals + " calories.");
+                        System.out.println("Salad has " + cook.calcCals(salad) + " calories.");
 
                         break;
 
                     case 5:
-                        int bigCals = 0;
-                        for (SaladMenu saladType : ingredientsList) {
-                            if (bigCals < saladType.getCalories()) {
-                                bigCals = saladType.getCalories();
-                            }
-
-                        }
-                        System.out.println("The lagest Cals' are " + bigCals);
-
-
+                        ConsolePrinter.consolPrt(sorter.sortedVegsByWeight(vegs));
                         break;
 
                     case 6:

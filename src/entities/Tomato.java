@@ -5,7 +5,7 @@ public class Tomato extends Vegetable {
     private int diameter;
 
     public Tomato(String name, int weight, int calories, int diameter) {
-        super(name, 70, 40);
+        super(name, weight, calories);
         this.diameter = diameter;
     }
 

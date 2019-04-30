@@ -1,6 +1,6 @@
 package entities;
 
-public class Vegetable {
+public class Vegetable implements Comparable<Vegetable> {
 
     private String name;
     private int weight;
@@ -40,4 +40,13 @@ public class Vegetable {
         return this.name + " weights " + this.weight + " and has " + this.calories + " calories. ";
     }
 
+    @Override
+    public int compareTo(Vegetable o) {
+        return this.getWeight() - o.getWeight();
+    }
+
+    @Override
+    public String toString() {
+        return "Name is " + name + " weight is " + weight + " calories - " + calories;
+    }
 }
