@@ -1,4 +1,6 @@
-package utils;
+package vegs;
+
+import utils.Vegatables;
 
 public class Potato extends Vegatables {
 
@@ -6,6 +8,14 @@ public class Potato extends Vegatables {
 
     public Potato(String name, int weight, int calories, String shape) {
         super(name, weight, calories);
+        this.shape = shape;
+    }
+
+    public String getShape() {
+        return shape;
+    }
+
+    public void setShape(String shape) {
         this.shape = shape;
     }
 }
