@@ -7,7 +7,7 @@ public class HouseSaladFilling2 extends HouseSaladBase {
 
     @Override
     public int getHouseDishCals() {
-        return super.getHouseDishCals()+120;
+        return super.getHouseDishCals() + 120;
     }
 
     @Override

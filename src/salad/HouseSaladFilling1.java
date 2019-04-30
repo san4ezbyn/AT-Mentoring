@@ -9,7 +9,7 @@ public class HouseSaladFilling1 extends HouseSaladBase {
 
     @Override
     public int getHouseDishCals() {
-        return super.getHouseDishCals()+75;
+        return super.getHouseDishCals() + 75;
     }
 
     @Override

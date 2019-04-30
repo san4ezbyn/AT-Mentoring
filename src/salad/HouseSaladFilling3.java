@@ -1,6 +1,6 @@
 package salad;
 
-public class HouseSaladFilling3 implements Filling  {
+public class HouseSaladFilling3 implements Filling {
 
     public int getHouseDishCals() {
         return 35;

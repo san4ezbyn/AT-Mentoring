@@ -6,7 +6,7 @@ public class SaladMenu extends Ingredients {
 
     public SaladMenu(String vegName, int calories, String typeOfIngredients) {
         super(vegName, calories);
-        this.typeOfIngredients=typeOfIngredients;
+        this.typeOfIngredients = typeOfIngredients;
     }
 
     public String getTypeOfIngredients() {
@@ -18,7 +18,7 @@ public class SaladMenu extends Ingredients {
     }
 
 
-    public String getInfo(){
-        return super.getInfo()+ " type "+ typeOfIngredients;
+    public String getInfo() {
+        return super.getInfo() + " type " + typeOfIngredients;
     }
 }

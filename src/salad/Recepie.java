@@ -11,7 +11,7 @@ public class Recepie {
 
 
         try (BufferedWriter bufferedOutputStream = new BufferedWriter(new FileWriter(atMentoringFile))) {
-            bufferedOutputStream.write("RECEPIE of the salad:\n   OLIV'E  ");
+            bufferedOutputStream.write("RECEPIE of the salad:\n   OLIV'E ням-нямка  ");
 
         } catch (IOException i) {
             System.out.println("Some exception on writing into a file has been cast.");
@@ -19,7 +19,7 @@ public class Recepie {
 
 
         try {
-            Scanner scan =  new Scanner(new BufferedInputStream(new FileInputStream(atMentoringFile)));
+            Scanner scan = new Scanner(new BufferedInputStream(new FileInputStream(atMentoringFile)));
 
             while (scan.hasNextLine()) {
                 String readFromFile = scan.nextLine();
@@ -30,7 +30,7 @@ public class Recepie {
         } catch (FileNotFoundException e) {
             System.out.println("Exception on reading from file are met.");
         }
-        }
     }
+}
 
 

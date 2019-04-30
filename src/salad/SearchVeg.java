@@ -7,12 +7,11 @@ public class SearchVeg {
 
     public static void findVeg(String searchName, List<SaladMenu> ingredientsList) {
 
-            for (SaladMenu item : ingredientsList) {
-                if (searchName.matches(item.getVegName())) {
+        for (SaladMenu item : ingredientsList) {
+            if (searchName.matches(item.getVegName())) {
 
-                    System.out.println("Veg " + searchName + " is present in the list. " + item.getInfo());
-                }
+                System.out.println("Veg " + searchName + " is present in the list. " + item.getInfo());
             }
-        
+        }
     }
 }

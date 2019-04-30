@@ -27,7 +27,7 @@ public class Ingredients {
     }
 
     public String getInfo() {
-        return this.vegName + " has "+ this.calories + " calories";
+        return this.vegName + " has " + this.calories + " calories";
     }
 
-  }
+}
