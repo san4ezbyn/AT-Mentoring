@@ -47,7 +47,7 @@ try {
                 int calories = scanner.nextInt();
                 System.out.println("Select type of veg: Fresh or Prinkled");
                 String typeOfIngredients = scanner.next();
-//TODO: typeOfIngredients is not printed out
+
                 ingredientsList.add(new SaladMenu(vegName, calories, typeOfIngredients));
 
                 break;
@@ -89,7 +89,7 @@ try {
                 System.out.println("The lagest Cals' are " + bigCals);
 
 
-                String sortCals;
+                /*String sortCals;
                 for (SaladMenu saladType : ingredientsList) ;
 
                 ingredientsList.sort(Comparator.comparing(Ingredients::getCalories).thenComparing(Ingredients::getVegName));
@@ -100,7 +100,7 @@ try {
                         .sorted(Comparator.comparing(Ingredients::getCalories))
                         .forEach(Ingredients::getVegName);
 
-                System.out.println("Salad has " + " calories.");
+                System.out.println("Salad has " + " calories.");*/
                 break;
 
             case 6:

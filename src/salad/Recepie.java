@@ -11,7 +11,7 @@ public class Recepie {
 
 
         try (BufferedWriter bufferedOutputStream = new BufferedWriter(new FileWriter(atMentoringFile))) {
-            bufferedOutputStream.write("RECEPIE of the salad:\n     ");
+            bufferedOutputStream.write("RECEPIE of the salad:\n   OLIV'E  ");
 
         } catch (IOException i) {
             System.out.println("Some exception on writing into a file has been cast.");
