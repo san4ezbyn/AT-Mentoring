@@ -4,7 +4,8 @@ import entities.Vegetable;
 import java.io.*;
 import java.util.List;
 import java.util.Scanner;
-
+// в целом конечно запись есть, но если уж говорить про рецеп, то пусть он выглядит соответствующе
+// например: Для домашненго овощного салата возьмите 100 грам помидоров, 200 грам огруцов и т.д. всё мелко порезатьб смешать, специи и соус по вкусу
 public class Recepie {
 
     private static File atMentoringFile = new File("atMentoring.txt");
@@ -15,6 +16,7 @@ public class Recepie {
             bufferedOutputStream.write(String.valueOf(vegs));
             System.out.println("File has been created. Text is written.");
 
+<<<<<<< HEAD
         } catch (IOException ioe) {
             throw new TextNotWrittenException("Some exception on writing into a file has been cast.");
         }
@@ -22,6 +24,13 @@ public class Recepie {
 
     public static void readRecepie(List<Vegetable> vegs) throws MyFileNotFoundException {
 
+=======
+        } catch (IOException i) {
+//            хорошее место чтобы пробросить кастомный эксепшен
+            System.out.println("Some exception on writing into a file has been cast.");
+        }
+//        я бы выдилил это в другой метод
+>>>>>>> b56f6ac445aa7e31ea057703b321e42c930bbbd6
         try {
             Scanner scan = new Scanner(new BufferedInputStream(new FileInputStream(atMentoringFile)));
 
@@ -31,7 +40,12 @@ public class Recepie {
             }
 
         } catch (FileNotFoundException e) {
+<<<<<<< HEAD
             throw new MyFileNotFoundException("Exception on reading from file is met.");
+=======
+            //            хорошее место чтобы пробросить кастомный эксепшен
+            System.out.println("Exception on reading from file are met.");
+>>>>>>> b56f6ac445aa7e31ea057703b321e42c930bbbd6
         }
     }
 }
