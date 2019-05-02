@@ -1,17 +1,20 @@
-package salad;
+package service;
+
+import entities.Vegetable;
 
 import java.io.*;
+import java.util.List;
 import java.util.Scanner;
 
 public class Recepie {
 
-    public static void writeRecepie() throws IOException {
+    public static void writeRecepie(List<Vegetable> vegs) throws IOException {
 
         File atMentoringFile = new File("atMentoring.txt");
 
 
         try (BufferedWriter bufferedOutputStream = new BufferedWriter(new FileWriter(atMentoringFile))) {
-            bufferedOutputStream.write("RECEPIE of the salad:\n   OLIV'E ням-нямка  ");
+            bufferedOutputStream.write(String.valueOf(vegs));
 
         } catch (IOException i) {
             System.out.println("Some exception on writing into a file has been cast.");

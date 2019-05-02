@@ -16,7 +16,8 @@ public class Tomato extends Vegetable {
     public void setDiameter(int diameter) {
         this.diameter = diameter;
     }
+
     public String getInfo() {
-        return "tomato is "+super.getInfo();
+        return "tomato is " + super.getInfo();
     }
 }

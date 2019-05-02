@@ -16,7 +16,8 @@ public class Potato extends Vegetable {
     public void setShape(String shape) {
         this.shape = shape;
     }
+
     public String getInfo() {
-        return "potato is "+super.getInfo();
+        return "potato is " + super.getInfo();
     }
 }

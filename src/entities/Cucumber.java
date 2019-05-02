@@ -16,7 +16,8 @@ public class Cucumber extends Vegetable {
     public void setType(String type) {
         this.type = type;
     }
+
     public String getInfo() {
-        return "cucumber is "+super.getInfo();
+        return "cucumber is " + super.getInfo();
     }
 }
