@@ -527,41 +527,6 @@
       <change afterPath="$PROJECT_DIR$/../untitled/out/production/untitled/com/company/Activatable.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/out/production/untitled/com/company/Loadable.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/src/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AT_Salad/cooking/salad/CookSalad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AT_Salad/cooking/salad/CookSalad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AT_Salad/salad/Filling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AT_Salad/salad/HouseSalad.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AT_Salad/salad/HouseSaladBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AT_Salad/salad/HouseSaladFilling1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AT_Salad/salad/HouseSaladFilling2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AT_Salad/salad/HouseSaladFilling3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AT_Salad/salad/Ingredients.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AT_Salad/salad/Recepie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AT_Salad/salad/SaladMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AT_Salad/salad/SearchVeg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AT_Salad/service/Cook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AT_Salad/service/Cook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AT_Salad/utils/ConsolePrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AT_Salad/utils/ConsolePrinter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cooking/salad/CookSalad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cooking/salad/CookSalad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cooking/salad/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cooking/salad/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Cucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Cucumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Potato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Potato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Salad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Salad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Tomato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Tomato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/salad/Filling.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/salad/HouseSalad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/salad/HouseSaladBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/salad/HouseSaladFilling1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/salad/HouseSaladFilling2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/salad/HouseSaladFilling3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/salad/Ingredients.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/salad/Recepie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/Recepie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/salad/SaladMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/salad/SearchVeg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/Cook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/Cook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/Description.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/Description.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/MyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/Sorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ConsolePrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Polymorphizm/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Polymorphizm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Archer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Archer.class" afterDir="false" />
@@ -868,7 +833,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556785388733" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556785814222" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -970,7 +935,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="4" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
