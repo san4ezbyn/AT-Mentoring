@@ -3,6 +3,7 @@ package cooking.salad;
 import entities.*;
 import salad.*;
 import service.Cook;
+import service.MyException;
 import service.Sorter;
 import utils.ConsolePrinter;
 
@@ -10,7 +11,7 @@ import java.io.*;
 import java.util.*;
 
 public class CookSalad {
-    
+
     private static List<Vegetable> vegs = new ArrayList<>();
 
     static {
@@ -25,7 +26,7 @@ public class CookSalad {
     private static Cook cook = new Cook();
     private static Sorter sorter = new Sorter();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws MyException {
 
         HouseSalad houseSalad = new HouseSalad(new HouseSaladFilling1(new HouseSaladFilling2(new HouseSaladFilling3())));
 
@@ -43,6 +44,7 @@ public class CookSalad {
 
 
                 System.out.println("1. =find a veg by vegName");
+                System.out.println("2. = my exception");
                 System.out.println("3. =cook salad");
                 System.out.println("4. =total calories");
                 System.out.println("5. =sort and show the ingreds by weight");
@@ -66,10 +68,18 @@ public class CookSalad {
                         ConsolePrinter.consolPrt(sorter.findByName(vegs, name));
                         break;
 
+                    case 2:
+                        try {
+                            throw new MyException(choice);
+                        } catch (MyException me) {
+                            System.out.println(me.getCaseTwo());
+                        }
+                        break;
+
                     case 3:
 
                         salad = cook.cookSalad(vegs);
-
+                        System.out.println("Salad is ready! \"Bon Appetit!\".");
                         break;
 
                     case 4:
@@ -84,15 +94,15 @@ public class CookSalad {
 
                     case 6:
                         try {
-                            Recepie.writeRecepie();
+                            Recepie.writeRecepie(vegs);
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
                         break;
 
-                    default:
+                   /* default:
                         System.out.println("Incorrect value! Please, try again!");
-                        break;
+                        break;*/
                 }
 
 
@@ -100,7 +110,5 @@ public class CookSalad {
         } catch (InputMismatchException ime) {
             System.out.println("No such element known. Please, enter another one.");
         }
-
-
     }
 }
