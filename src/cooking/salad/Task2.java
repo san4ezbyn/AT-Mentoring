@@ -1,8 +1,6 @@
 package cooking.salad;
 
-import java.security.Key;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class Task2 {
     public static void main(String[] args) {
@@ -25,11 +23,6 @@ public class Task2 {
 
 //2) find
         long startALF = System.nanoTime();
-       /* List<String> i = (stringList
-                .stream()
-                .filter(item -> item.equalsIgnoreCase("LOVE")))
-                .collect(Collectors.toList());
-    */
         if (stringList.contains("love")) {
         }
         long finishALF = System.nanoTime();
@@ -40,8 +33,7 @@ public class Task2 {
         stringList.remove(2);
         long finishALR = System.nanoTime();
         long diffALR = finishALR - startALR;
-        System.out.println("ArraysList Delete: - " + diffALR+"\n");
-
+        System.out.println("ArraysList Delete: - " + diffALR + "\n");
 
         //1)add LinkedList
         long startLLA = System.nanoTime();
@@ -59,12 +51,6 @@ public class Task2 {
 
         //2) find
         long startLLF = System.nanoTime();
-       /* List<String> iLL = (stringLinkedList
-                .stream()
-                .filter(item -> item.equalsIgnoreCase("LOVE")))
-                .collect(Collectors.toList());
-        System.out.println("LinkedList find " + iLL.toString());
-*/
         stringLinkedList.contains("love");
         long finishLLF = System.nanoTime();
         long diffLLF = finishLLF - startLLF;
@@ -75,9 +61,7 @@ public class Task2 {
         stringLinkedList.remove("spring");
         long finishLLR = System.nanoTime();
         long diffLLR = finishLLR - startLLR;
-        System.out.println("LinkedList Delete - " + diffLLR+"\n");
-
-        ///////SETS/////////////////////SETS/////////////////////SETS/////////////////////////////////
+        System.out.println("LinkedList Delete - " + diffLLR + "\n");
 
         long startHSA = System.nanoTime();
         HashSet<String> stringHashSet = new HashSet<>();
@@ -95,13 +79,13 @@ public class Task2 {
         stringHashSet.contains("love");
         long finishHSF = System.nanoTime();
         long diffHSF = finishHSA - startHSA;
-            System.out.println("HashSet Find - "+diffHSF);
-            //3 remove  HashSet
+        System.out.println("HashSet Find - " + diffHSF);
+        //3 remove  HashSet
         long startHSR = System.nanoTime();
         stringHashSet.remove("spring");
         long finishHSR = System.nanoTime();
         long diffHSR = finishHSR - startHSR;
-        System.out.println("HashSet Delete - "+diffHSR+"\n");
+        System.out.println("HashSet Delete - " + diffHSR + "\n");
         //1)add TreeSETS
         long startTSA = System.nanoTime();
         TreeSet<String> stringTreeSet = new TreeSet<>();
@@ -119,14 +103,14 @@ public class Task2 {
         stringTreeSet.contains("love");
         long finishTSF = System.nanoTime();
         long diffTSF = finishTSF - startTSF;
-            System.out.println("TreeSet Find - "+diffTSF);
+        System.out.println("TreeSet Find - " + diffTSF);
 
         //3 remove  HashSet
         long startTSR = System.nanoTime();
-                stringTreeSet.remove("spring");
+        stringTreeSet.remove("spring");
         long finishTSR = System.nanoTime();
         long diffTSR = finishTSR - startTSR;
-        System.out.println("TreeSet Delete - " + diffTSR+"\n");
+        System.out.println("TreeSet Delete - " + diffTSR + "\n");
 ///////MAPS////////MAPS///////MAPS//////////MAPS///////////MAPS//////////////////////////////////////////////////
         //1)add HashMap
         long startHMA = System.nanoTime();
@@ -146,19 +130,19 @@ public class Task2 {
         stringHashMap.containsValue("love");
         long finishHMF = System.nanoTime();
         long diffHMF = finishHMF - startHMF;
-            System.out.println("HashMap Find- "+diffHMF);
+        System.out.println("HashMap Find- " + diffHMF);
 
 
         //3 remove  HashMap
         long startHMR = System.nanoTime();
-                stringHashMap.remove(4, "future");
+        stringHashMap.remove(4, "future");
         long finishHMR = System.nanoTime();
         long diffHMR = finishHMF - startHMF;
-        System.out.println("HashMap Delete - " + diffHMR+"\n");
+        System.out.println("HashMap Delete - " + diffHMR + "\n");
 
 ///////////TreeMap/////////TreeMap///////
         //1)add TreeMap
-        long startTMA =System.nanoTime();
+        long startTMA = System.nanoTime();
         Map<Integer, String> stringTreeMap = new TreeMap<>();
         stringTreeMap.put(1, "sun");
         stringTreeMap.put(0, "spring");
@@ -166,22 +150,21 @@ public class Task2 {
         stringTreeMap.put(2, "peace");
         stringTreeMap.put(5, "future");
         stringTreeMap.put(4, "love");
-long finishTMA=System.nanoTime();
-long diffTMA=finishTMA-startTMA;
+        long finishTMA = System.nanoTime();
+        long diffTMA = finishTMA - startTMA;
         System.out.println("TreeMap add " + diffTMA);
 //2) find
-        long startTMF =System.nanoTime();
-       stringTreeMap.containsValue("love");
-        long finishTMF=System.nanoTime();
-        long diffTMF=finishTMF-startTMF;
-            System.out.println("TreeMap Find - "+diffTMF);
+        long startTMF = System.nanoTime();
+        stringTreeMap.containsValue("love");
+        long finishTMF = System.nanoTime();
+        long diffTMF = finishTMF - startTMF;
+        System.out.println("TreeMap Find - " + diffTMF);
 
         //3 remove  TreeMap
-        long startTMR =System.nanoTime();
+        long startTMR = System.nanoTime();
         stringTreeMap.remove(4, "future");
-        long finishTMR=System.nanoTime();
-        long diffTMR=finishTMR-startTMR;
+        long finishTMR = System.nanoTime();
+        long diffTMR = finishTMR - startTMR;
         System.out.println("TreeMap Delete - " + diffTMR);
-
     }
 }

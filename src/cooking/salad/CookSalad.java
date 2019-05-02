@@ -1,9 +1,9 @@
 package cooking.salad;
 
 import entities.*;
-import salad.*;
 import service.Cook;
 import service.MyException;
+import service.Recepie;
 import service.Sorter;
 import utils.ConsolePrinter;
 
@@ -27,15 +27,6 @@ public class CookSalad {
     private static Sorter sorter = new Sorter();
 
     public static void main(String[] args) throws MyException {
-
-        HouseSalad houseSalad = new HouseSalad(new HouseSaladFilling1(new HouseSaladFilling2(new HouseSaladFilling3())));
-
-        System.out.println("Welcome to our Michelin stars' restuarant 'Y Sanu4a'." +
-                "\nWe are glad to offer you our best house dish: salad - " + houseSalad.getDescription() + " and only " + houseSalad.getHouseDishCals() + " calories.");
-        System.out.println("Bon Appetit!");
-
-
-        List<SaladMenu> ingredientsList = new ArrayList<>();
 
 
         boolean actionSelect = true;
@@ -99,13 +90,7 @@ public class CookSalad {
                             e.printStackTrace();
                         }
                         break;
-
-                   /* default:
-                        System.out.println("Incorrect value! Please, try again!");
-                        break;*/
                 }
-
-
             }
         } catch (InputMismatchException ime) {
             System.out.println("No such element known. Please, enter another one.");

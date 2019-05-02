@@ -1,4 +1,4 @@
-package salad;
+package service;
 
 import entities.Vegetable;
 
@@ -8,13 +8,12 @@ import java.util.Scanner;
 
 public class Recepie {
 
-    public static void writeRecepie(List<Vegetable>vegs) throws IOException {
+    public static void writeRecepie(List<Vegetable> vegs) throws IOException {
 
         File atMentoringFile = new File("atMentoring.txt");
 
 
         try (BufferedWriter bufferedOutputStream = new BufferedWriter(new FileWriter(atMentoringFile))) {
-            //bufferedOutputStream.write("RECEPIE of the salad:\n   OLIV'E ням-нямка  ");
             bufferedOutputStream.write(String.valueOf(vegs));
 
         } catch (IOException i) {

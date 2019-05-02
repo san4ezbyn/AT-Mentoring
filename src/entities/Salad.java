@@ -17,6 +17,4 @@ public class Salad {
     public void setMixedVegs(List<Vegetable> mixedVegs) {
         this.mixedVegs = mixedVegs;
     }
-
-
 }

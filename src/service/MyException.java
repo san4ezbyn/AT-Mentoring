@@ -6,9 +6,10 @@ public class MyException extends Exception {
 
     public MyException(int caseTwo) {
         this.caseTwo = caseTwo;
-            }
-            public String getCaseTwo(){
-        return ("Case " + caseTwo+ " is not supported.\n");
-            }
+    }
+
+    public String getCaseTwo() {
+        return ("Case " + caseTwo + " is not supported.\n");
+    }
 
 }

@@ -18,8 +18,6 @@ public class Cook implements ICook {
             sum += veg.getCalories();
         }
         return sum;
-
-
     }
 }
 

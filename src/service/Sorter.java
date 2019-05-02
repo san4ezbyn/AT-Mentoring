@@ -15,6 +15,6 @@ public class Sorter implements ISort {
 
     @Override
     public List<Vegetable> findByName(List<Vegetable> vegetables, String name) {
-        return vegetables.stream().filter(item->item.getName().contains(name)).collect(Collectors.toList());
+        return vegetables.stream().filter(item -> item.getName().contains(name)).collect(Collectors.toList());
     }
 }
