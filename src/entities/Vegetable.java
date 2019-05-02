@@ -35,7 +35,7 @@ public class Vegetable implements Comparable<Vegetable> {
     public void setCalories(int calories) {
         this.calories = calories;
     }
-
+// используй для этого метод toString()
     public String getInfo() {
         return this.name + " weights " + this.weight + " and has " + this.calories + " calories. ";
     }
