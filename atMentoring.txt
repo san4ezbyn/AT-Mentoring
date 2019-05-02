@@ -1,1 +1,1 @@
-[Name is Cucumber weight is 60 calories - 10, Name is Tomato weight is 70 calories - 45, Name is Tomato weight is 80 calories - 40, Name is Potato weight is 100 calories - 50, Name is Potato weight is 120 calories - 60]
+[Name is Cucumber weight is 55 calories - 8, Name is Cucumber weight is 60 calories - 10, Name is Tomato weight is 70 calories - 45, Name is Tomato weight is 80 calories - 40, Name is Potato weight is 100 calories - 50, Name is Potato weight is 120 calories - 60]

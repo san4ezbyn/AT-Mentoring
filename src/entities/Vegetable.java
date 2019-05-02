@@ -36,9 +36,9 @@ public class Vegetable implements Comparable<Vegetable> {
         this.calories = calories;
     }
 
-    public String getInfo() {
+    /*public String getInfo() {
         return this.name + " weights " + this.weight + " and has " + this.calories + " calories. ";
-    }
+    }*/
 
     @Override
     public int compareTo(Vegetable o) {

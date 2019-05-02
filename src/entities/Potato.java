@@ -18,6 +18,6 @@ public class Potato extends Vegetable {
     }
 
     public String getInfo() {
-        return "potato is " + super.getInfo();
+        return "potato is " + super.toString();
     }
 }

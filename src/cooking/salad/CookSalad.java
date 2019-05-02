@@ -1,10 +1,7 @@
 package cooking.salad;
 
 import entities.*;
-import service.Cook;
-import service.MyException;
-import service.Recepie;
-import service.Sorter;
+import service.*;
 import utils.ConsolePrinter;
 
 import java.io.*;
@@ -16,17 +13,18 @@ public class CookSalad {
 
     static {
         vegs.add(new Potato("Potato", 100, 50, "oval"));
-        vegs.add(new Potato("Potato", 120, 60, "oval"));
+        vegs.add(new Potato("Potato", 120, 60, "square"));
         vegs.add(new Tomato("Tomato", 80, 40, 12));
         vegs.add(new Tomato("Tomato", 70, 45, 11));
         vegs.add(new Cucumber("Cucumber", 60, 10, "fresh"));
+        vegs.add(new Cucumber("Cucumber", 55, 8, "prinkled"));
     }
 
     private static Salad salad;
     private static Cook cook = new Cook();
     private static Sorter sorter = new Sorter();
 
-    public static void main(String[] args) throws MyException {
+    public static void main(String[] args) throws CaseTwoNotExistException {
 
 
         boolean actionSelect = true;
@@ -39,7 +37,8 @@ public class CookSalad {
                 System.out.println("3. =cook salad");
                 System.out.println("4. =total calories");
                 System.out.println("5. =sort and show the ingreds by weight");
-                System.out.println("6. = create/write a text into a file");
+                System.out.println("6. = write a text into a file");
+                System.out.println("7. = read a text from the file");
                 System.out.println("0. =exit");
 
                 Scanner scanner = new Scanner(System.in);
@@ -61,8 +60,8 @@ public class CookSalad {
 
                     case 2:
                         try {
-                            throw new MyException(choice);
-                        } catch (MyException me) {
+                            throw new CaseTwoNotExistException(choice);
+                        } catch (CaseTwoNotExistException me) {
                             System.out.println(me.getCaseTwo());
                         }
                         break;
@@ -86,8 +85,16 @@ public class CookSalad {
                     case 6:
                         try {
                             Recepie.writeRecepie(vegs);
-                        } catch (IOException e) {
+                        } catch (TextNotWrittenException e) {
                             e.printStackTrace();
+                        }
+                        break;
+
+                    case 7:
+                        try {
+                            Recepie.readRecepie(vegs);
+                        } catch (MyFileNotFoundException me) {
+                            me.printStackTrace();
                         }
                         break;
                 }

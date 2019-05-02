@@ -18,6 +18,6 @@ public class Cucumber extends Vegetable {
     }
 
     public String getInfo() {
-        return "cucumber is " + super.getInfo();
+        return "cucumber is " + super.toString();
     }
 }

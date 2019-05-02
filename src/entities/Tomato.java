@@ -18,6 +18,6 @@ public class Tomato extends Vegetable {
     }
 
     public String getInfo() {
-        return "tomato is " + super.getInfo();
+        return "tomato is " + super.toString();
     }
 }
