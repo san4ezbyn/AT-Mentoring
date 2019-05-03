@@ -530,11 +530,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atMentoring.txt" beforeDir="false" afterPath="$PROJECT_DIR$/atMentoring.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AT_Salad/cooking/salad/CookSalad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AT_Salad/cooking/salad/CookSalad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AT_Salad/entities/Vegetable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AT_Salad/entities/Vegetable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AT_Salad/service/Recepie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AT_Salad/service/Recepie.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cooking/salad/CookSalad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cooking/salad/CookSalad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Vegetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Vegetable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/Recepie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/Recepie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/Recepie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/RecepieWriteIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Polymorphizm/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Polymorphizm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Archer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Archer.class" afterDir="false" />
@@ -575,28 +573,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="38" />
-          <entry key="java" value="9801" />
+          <entry key="dummy" value="45" />
+          <entry key="java" value="10685" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9801" />
-          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="JAVA" value="10685" />
+          <entry key="PLAIN_TEXT" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="82" />
-          <entry key="txt" value="15" />
+          <entry key="java" value="83" />
+          <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="82" />
-          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="JAVA" value="83" />
+          <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
     </session>
@@ -612,11 +610,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/atMentoring.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -634,10 +632,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/service/RecepieWriteIO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="11" column="70" lean-forward="true" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/Recepie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+            <state relative-caret-position="411">
+              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -691,11 +701,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cooking/salad/CookSalad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="822">
-              <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+            <state relative-caret-position="1428">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -764,10 +774,11 @@
         <option value="$PROJECT_DIR$/src/service/TextNotWrittenException.java" />
         <option value="$PROJECT_DIR$/src/service/MyFileNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/utils/TextToRecepie.java" />
-        <option value="$PROJECT_DIR$/src/cooking/salad/CookSalad.java" />
         <option value="$PROJECT_DIR$/src/entities/Vegetable.java" />
         <option value="$PROJECT_DIR$/src/service/TextOfRecepie.java" />
+        <option value="$PROJECT_DIR$/src/cooking/salad/CookSalad.java" />
         <option value="$PROJECT_DIR$/src/service/Recepie.java" />
+        <option value="$PROJECT_DIR$/src/service/RecepieWriteIO.java" />
       </list>
     </option>
   </component>
@@ -833,7 +844,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556878620799" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556888541746" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -935,14 +946,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="4" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.17750533" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17750533" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -950,7 +960,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.063921995" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.31527627" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -1148,20 +1158,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Vegetable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atMentoring.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/service/TextOfRecepie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1169,23 +1165,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/Recepie.java">
+    <entry file="file://$PROJECT_DIR$/src/entities/Vegetable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        <state relative-caret-position="510">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cooking/salad/CookSalad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cooking/salad/CookSalad.java">
+    <entry file="file://$PROJECT_DIR$/src/service/RecepieWriteIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="822">
-          <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        <state relative-caret-position="122">
+          <caret line="11" column="70" lean-forward="true" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/Recepie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atMentoring.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

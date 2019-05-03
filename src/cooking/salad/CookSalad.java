@@ -83,7 +83,7 @@ public class CookSalad {
 
                     case 6:
                         try {
-                            Recepie.writeRecepie(vegs);
+                            RecepieWriteIO.writeRecepie(vegs);
                         } catch (TextNotWrittenException e) {
                             e.printStackTrace();
                         }
@@ -91,7 +91,7 @@ public class CookSalad {
 
                     case 7:
                         try {
-                            Recepie.readRecepie(vegs);
+                            RecepieWriteIO.readRecepie(vegs);
                         } catch (MyFileNotFoundException me) {
                             me.printStackTrace();
                         }
