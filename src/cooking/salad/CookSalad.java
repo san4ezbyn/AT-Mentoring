@@ -56,7 +56,7 @@ public class CookSalad {
                         String name = scanner.next();
                         ConsolePrinter.consolPrt(sorter.findByName(vegs, name));
                         break;
-
+//                    в чём смысл кетча эксепшена который ты и бросил, тем более в том же месте?
                     case 2:
                         try {
                             throw new CaseTwoNotExistException(choice);

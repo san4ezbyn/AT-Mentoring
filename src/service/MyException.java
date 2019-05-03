@@ -1,5 +1,5 @@
 package service;
-// назови эксепшен нормально f.e: CaseTwoNotExistsException
+// назови эксепшен нормально f.e: CaseTwoNotExistsException --  если этот эксепшен не нужен - удали
 public class MyException extends Exception {
 
     private int caseTwo;

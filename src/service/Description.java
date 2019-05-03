@@ -1,5 +1,5 @@
 package service;
-// зачем нужен этот интерфейс?
+// зачем нужен этот интерфейс? -- всё ещё не удалён
 public interface Description {
 
     int getHouseDishCals();
