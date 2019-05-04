@@ -1,7 +1,6 @@
 package service;
 
 import entities.Vegetable;
-
 import java.util.List;
 
 public class Recepie {

@@ -60,10 +60,7 @@ public class CookSalad {
                         ConsolePrinter.consolPrt(sorter.findByName(vegs, name));
                         break;
 //                    в чём смысл кетча эксепшена который ты и бросил, тем более в том же месте?
-<<<<<<< HEAD
                     //перехватил несуществующий инстанс (если ты про логику - то это просто тренировка - создал свой эксепшн
-=======
->>>>>>> 97d0f13fdec67333d9ac9ac7b623587ecd2455a9
                     case 2:
                         try {
                             throw new CaseTwoNotExistException(choice);

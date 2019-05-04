@@ -10,6 +10,4 @@ public interface ICook {
     Salad cookSalad(List<Vegetable> ingreds);
 
     int calcCals(Salad salad);
-
-
 }

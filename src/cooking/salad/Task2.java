@@ -1,5 +1,4 @@
 package cooking.salad;
-
 import java.util.*;
 
 public class Task2 {
