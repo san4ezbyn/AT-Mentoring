@@ -1,4 +1,4 @@
-package service;
+package exceptions;
 
 public class CaseTwoNotExistException extends Exception {
 
@@ -8,7 +8,7 @@ public class CaseTwoNotExistException extends Exception {
         this.caseTwo = caseTwo;
     }
 
-    public String getCaseTwo() {
+    public String getMessage() {
         return ("[CaseTwoNotExistException]: Case " + caseTwo + " is not supported.\n");
     }
 

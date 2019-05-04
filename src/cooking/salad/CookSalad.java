@@ -1,6 +1,9 @@
 package cooking.salad;
 
 import entities.*;
+import exceptions.CaseTwoNotExistException;
+import exceptions.MyFileNotFoundException;
+import exceptions.TextNotWrittenException;
 import service.*;
 import utils.ConsolePrinter;
 
@@ -56,12 +59,13 @@ public class CookSalad {
                         String name = scanner.next();
                         ConsolePrinter.consolPrt(sorter.findByName(vegs, name));
                         break;
-
+//                    в чём смысл кетча эксепшена который ты и бросил, тем более в том же месте?
+                    //перехватил несуществующий инстанс (если ты про логику - то это просто тренировка - создал свой эксепшн
                     case 2:
                         try {
                             throw new CaseTwoNotExistException(choice);
                         } catch (CaseTwoNotExistException me) {
-                            System.out.println(me.getCaseTwo());
+                            System.out.println(me.getMessage());
                         }
                         break;
 
