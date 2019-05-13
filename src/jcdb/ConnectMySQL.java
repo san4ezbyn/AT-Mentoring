@@ -21,6 +21,7 @@ public class ConnectMySQL extends CookSalad {
     static final String USER = "root";
     static final String PASS = "root";
 
+//    метод коннект базы данных который вытаскивает ингредиеты и распечатывает в консоле?? ты серьёзно?
     public void connectBD() {
 
         Connection connection = null;
@@ -43,7 +44,8 @@ public class ConnectMySQL extends CookSalad {
 
             while (resultSet.next()) {
                 //Retrieve by column name
-
+//                зачем заменил сущности овощей этим? работай с существующими объектами
+//                сделай дополнительный сервис который бы читал ингредиенты из бд и записывал их в коллекцию, у программы должна быть возмодность делать салат из этих овощей
                 bd = new BDinit();
                 bd.setName(resultSet.getString("name"));
                 bd.setWeight(resultSet.getInt("weight"));

@@ -1,7 +1,7 @@
 package jcdb;
 
 import entities.Vegetable;
-
+// что ещё за сущность? название говорит ни о чём и почему оно наследуется от овоща?
 public class BDinit extends Vegetable {
 
 private String type;
