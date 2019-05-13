@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vegetable>
+    <vegs id="001">
+        <name>Картошка</name>
+        <weight>111</weight>
+        <type>вареная</type>
+    </vegs>
+    <vegs id="002">
+        <name>Огурец</name>
+        <weight>555</weight>
+        <type>Соленый</type>
+    </vegs>
+    <vegss id="003">
+        <name>Колбаса</name>
+        <weight>112</weight>
+        <type>Вареная</type>
+    </vegss>
+    <vegs id="004">
+        <name>Яйцо</name>
+        <weight>55</weight>
+        <type>Вареное</type>
+    </vegs>
+    <vegs id="005">
+        <name>Яблоко</name>
+        <weight>77</weight>
+        <type>Наисвежайшее</type>
+    </vegs>
+
+</vegetable>

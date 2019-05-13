@@ -12,6 +12,13 @@ public class Vegetable implements Comparable<Vegetable> {
         this.calories = calories;
     }
 
+    public Vegetable(String name, int weight) {
+
+    }
+
+    public Vegetable() {
+    }
+
     public String getName() {
         return name;
     }

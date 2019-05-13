@@ -4,14 +4,19 @@ import entities.*;
 import exceptions.CaseTwoNotExistException;
 import exceptions.MyFileNotFoundException;
 import exceptions.TextNotWrittenException;
+import jcdb.ConnectMySQL;
+import org.xml.sax.SAXException;
 import service.*;
 import utils.ConsolePrinter;
+import xml.XMLparser;
 
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.IOException;
 import java.util.*;
 
 public class CookSalad {
 
-    private static List<Vegetable> vegs = new ArrayList<>();
+    public static List<Vegetable> vegs = new ArrayList<>();
 
     static {
         vegs.add(new Potato("Potato", 100, 50, "oval"));
@@ -26,7 +31,7 @@ public class CookSalad {
     private static Cook cook = new Cook();
     private static Sorter sorter = new Sorter();
 
-    public static void main(String[] args) throws CaseTwoNotExistException {
+    public static void main(String[] args) throws CaseTwoNotExistException, IOException, ParserConfigurationException, SAXException {
 
 
         boolean actionSelect = true;
@@ -41,6 +46,8 @@ public class CookSalad {
                 System.out.println("5. =sort and show the ingreds by weight");
                 System.out.println("6. = write a text into a file");
                 System.out.println("7. = read a text from the file");
+                System.out.println("8. = read from data base");
+                System.out.println("9. = read from XML file");
                 System.out.println("0. =exit");
 
                 Scanner scanner = new Scanner(System.in);
@@ -99,6 +106,16 @@ public class CookSalad {
                         } catch (MyFileNotFoundException me) {
                             me.printStackTrace();
                         }
+                        break;
+
+                    case 8:
+                        ConnectMySQL connectMySQL = new ConnectMySQL();
+                        connectMySQL.connectBD();
+                        break;
+
+                    case 9:
+                        XMLparser xmlRunner = new XMLparser();
+                        xmlRunner.runPARSER();
                         break;
                 }
             }
