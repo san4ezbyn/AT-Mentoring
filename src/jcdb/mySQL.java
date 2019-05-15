@@ -2,19 +2,19 @@ package jcdb;
 
 import entities.Vegetable;
 // что ещё за сущность? название говорит ни о чём и почему оно наследуется от овоща?
-public class BDinit extends Vegetable {
+public class mySQL extends Vegetable {
 
 private String type;
-    public BDinit(String name, int weight, int calories, String type) {
+    public mySQL(String name, int weight, int calories, String type) {
         super(name, weight, calories);
         this.type=type;
     }
 
-    public BDinit(String name, int weight) {
+    public mySQL(String name, int weight) {
         super(name, weight);
     }
 
-    public BDinit() {
+    public mySQL() {
 
     }
 

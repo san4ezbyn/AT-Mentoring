@@ -9,7 +9,7 @@ import java.util.List;
 public class ConnectMySQL extends CookSalad {
 
 
-    public BDinit bd = null;
+    public mySQL bd = null;
 
     //getter method for list
    List<Vegetable> vegs2 = new ArrayList<Vegetable>();
@@ -46,7 +46,7 @@ public class ConnectMySQL extends CookSalad {
                 //Retrieve by column name
 //                зачем заменил сущности овощей этим? работай с существующими объектами
 //                сделай дополнительный сервис который бы читал ингредиенты из бд и записывал их в коллекцию, у программы должна быть возмодность делать салат из этих овощей
-                bd = new BDinit();
+                bd = new mySQL();
                 bd.setName(resultSet.getString("name"));
                 bd.setWeight(resultSet.getInt("weight"));
                 bd.setType(resultSet.getString("type"));
@@ -57,7 +57,7 @@ public class ConnectMySQL extends CookSalad {
            // List<Vegetable> vegs = vegs2();
 
 
-            System.out.println(vegs2);
+          // System.out.println(vegs2);
 
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
