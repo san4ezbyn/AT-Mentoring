@@ -2,560 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11cab1d5-a861-41aa-a4d7-c1eadb4986d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/ HomeTrain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/Enemy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/Gender.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/Genders$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/Genders$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/Genders.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/Hero.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/Mage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/MagicStick.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/MeleeWeapon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/Mortal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/Race.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/Races$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/Races$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/Races$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/Races.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/RangeWeapon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/Sword.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/Warrior.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/Weapon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/home/training/Zombie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/javacore/lessons/Auto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/javacore/lessons/Bus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/javacore/lessons/ElectricCar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/javacore/lessons/EngineType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/javacore/lessons/FuelAuto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/javacore/lessons/Truck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/out/production/ HomeTrain/javacore/lessons/autoMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/home/training/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/home/training/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/home/training/Genders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/home/training/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/home/training/Mage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/home/training/MagicStick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/home/training/MeleeWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/home/training/Mortal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/home/training/Race.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/home/training/Races.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/home/training/RangeWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/home/training/Sword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/home/training/Warrior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/home/training/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/home/training/Zombie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/javacore/lessons/Auto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/javacore/lessons/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/javacore/lessons/ElectricCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/javacore/lessons/EngineType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/javacore/lessons/FuelAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/javacore/lessons/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ HomeTrain/src/javacore/lessons/autoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Candy/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Candy/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Candy/src/entities/Choco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Candy/src/entities/Podarok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Candy/src/entities/Sweets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Candy/src/service/CollectPodarok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Candy/src/service/Content.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Candy/src/service/InOutFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Candy/src/service/Iweight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Candy/src/service/Sortable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Candy/src/service/Sorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Candy/src/service/Weight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Candy/src/utils/PrintOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/CollectionsTask.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/out/production/CollectionsTask/collections/Actor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/out/production/CollectionsTask/collections/ActorByAgeComparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/out/production/CollectionsTask/collections/ActorByFeeAndFirstNameComparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/out/production/CollectionsTask/collections/ActorByFirstNameComparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/out/production/CollectionsTask/collections/ActorByLastNameComparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/out/production/CollectionsTask/collections/CollectionsDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/out/production/CollectionsTask/collections/IteratorDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/out/production/CollectionsTask/collections/ListsDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/out/production/CollectionsTask/collections/Studio.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/out/production/CollectionsTask/com/collections/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/out/production/CollectionsTask/com/collections/MyActor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/src/collections/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/src/collections/ActorByAgeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/src/collections/ActorByFeeAndFirstNameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/src/collections/ActorByFirstNameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/src/collections/ActorByLastNameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/src/collections/CollectionsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/src/collections/IteratorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/src/collections/ListsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/src/collections/Studio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/src/com/collections/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionsTask/src/com/collections/MyActor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/DV.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/NTT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/CloseWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/CompareDates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/CreateNewBesluit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/DateOrderASD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/DateOrderDESC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/DeleteCopyBesluit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/DeleteNewBesluit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/MakeCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/Meetings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/MeetingsAGBIdir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/MeetingsAGBIraad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/MeetingsAGBMdir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/MeetingsAGBMraad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/MeetingsBCSD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/MeetingsGemeenteraad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/MeetingsOCMW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/MeetingsSchepenCollege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/MeetingsVastBureau.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/Reacties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/SearchBesluit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/Vergaderingen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/main/java/VergaderingenArchief.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/test/java/Dogs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/test/java/JustForTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/test/java/RunTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/src/test/java/Size.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/target/test-classes/Dogs$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/target/test-classes/Dogs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/target/test-classes/JustForTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/target/test-classes/RunTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV/target/test-classes/Size.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/DV.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/NTT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/CloseWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/CompareDates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/CreateNewBesluit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/DateOrderASD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/DateOrderDESC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/DeleteCopyBesluit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/DeleteNewBesluit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/MakeCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/Meetings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/MeetingsAGBIdir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/MeetingsAGBIraad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/MeetingsAGBMdir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/MeetingsAGBMraad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/MeetingsBCSD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/MeetingsGemeenteraad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/MeetingsOCMW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/MeetingsSchepenCollege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/MeetingsVastBureau.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/Reacties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/SearchBesluit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/Vergaderingen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/main/java/VergaderingenArchief.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/test/java/Dogs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/test/java/JustForTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/test/java/RunTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/src/test/java/Size.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/CloseWindow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/CreateNewBesluit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/DateOrderASD.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/DateOrderDESC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/DeleteCopyBesluit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/DeleteNewBesluit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/Home.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/MakeCopy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/MeetingsAGBIdir.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/MeetingsAGBIraad.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/MeetingsAGBMdir.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/MeetingsAGBMraad.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/MeetingsBCSD.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/MeetingsGemeenteraad.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/MeetingsOCMW.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/MeetingsSchepenCollege.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/MeetingsVastBureau.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/Reacties.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/Search.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/SearchBesluit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/Start.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/Vergaderingen.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/classes/VergaderingenArchief.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/test-classes/Dogs$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/test-classes/Dogs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/test-classes/JustForTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/test-classes/RunTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DV_for_git/target/test-classes/Size.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/FileInFileOut.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/My File with text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/fairyTail.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/fairyTailN.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/out/production/FileInFileOut/in/out/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/out/production/FileInFileOut/in/out/MyTraining.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/out/production/FileInFileOut/myPizza/Becon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/out/production/FileInFileOut/myPizza/CheezeMato.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/out/production/FileInFileOut/myPizza/Ingredients.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/out/production/FileInFileOut/myPizza/MakePizza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/out/production/FileInFileOut/myPizza/MyPizza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/out/production/FileInFileOut/myPizza/MyPizzaIngredients.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/out/production/FileInFileOut/pizza/Cheeze.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/out/production/FileInFileOut/pizza/Cook.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/out/production/FileInFileOut/pizza/Ham.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/out/production/FileInFileOut/pizza/Ingredients.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/out/production/FileInFileOut/pizza/Mushrooms.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/out/production/FileInFileOut/pizza/Pizza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/out/production/FileInFileOut/pizza/PizzaIngredients.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/out/production/FileInFileOut/pizza/Tomato.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/out/production/FileInFileOut/printIn/printOut/playingGround.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/poem-2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/poem.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/src/in/out/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/src/in/out/MyTraining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/src/myPizza/Becon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/src/myPizza/CheezeMato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/src/myPizza/Ingredients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/src/myPizza/MakePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/src/myPizza/MyPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/src/myPizza/MyPizzaIngredients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/src/pizza/Cheeze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/src/pizza/Cook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/src/pizza/Ham.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/src/pizza/Ingredients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/src/pizza/Mushrooms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/src/pizza/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/src/pizza/PizzaIngredients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/src/pizza/Tomato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileInFileOut/src/printIn/printOut/playingGround.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FunFairGames/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FunFairGames/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FunFairGames/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FunFairGames/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FunFairGames/FunFairGames.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FunFairGames/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FunFairGames/src/main/java/GamesListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FunFairGames/src/main/java/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FunFairGames/src/main/java/OpenBJPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FunFairGames/src/test/java/RunTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FunFairGames/target/classes/GamesListPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FunFairGames/target/classes/LoginPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FunFairGames/target/classes/OpenBJPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FunFairGames/target/test-classes/RunTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeTaskItAcademy/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeTaskItAcademy/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeTaskItAcademy/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeTaskItAcademy/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeTaskItAcademy/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeTaskItAcademy/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeTaskItAcademy/HomeTaskItAcademy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeTaskItAcademy/out/production/HomeTaskItAcademy/homeTask/collections/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeTaskItAcademy/out/production/HomeTaskItAcademy/homeTask/collections/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeTaskItAcademy/src/homeTask/collections/CompStud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeTaskItAcademy/src/homeTask/collections/Comparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeTaskItAcademy/src/homeTask/collections/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeTaskItAcademy/src/homeTask/collections/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/java/lang/annotations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Axe.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Battleground.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/BeastMaster$Wolf.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/BeastMaster.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Bow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Descripable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Enemy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Gender$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Gender$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Gender.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Inborn.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/MagicStick.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/MagicWeapon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/MeleeDungeon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/MeleeWeapon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Mortal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Race$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Race$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Race$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Race.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/RangeWeapon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Sword.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Tavern.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Weapon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Zombie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/collections/Actor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/collections/ActorByAgeComparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/collections/ActorByLastNameComparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/collections/ListDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/collections/Studio.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/pair/Pair.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/pair/PairDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/Axe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/Battleground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/BeastMaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/Bow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/Descripable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/Inborn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/MagicStick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/MagicWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/MeleeDungeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/MeleeWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/Mortal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/Race.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/RangeWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/Sword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/Tavern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/Zombie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/collections/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/collections/ActorByAgeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/collections/ActorByLastNameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/collections/ListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/collections/Studio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/pair/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Polymorphizm/src/pair/PairDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__com_google_guava_guava_23_6_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__com_thoughtworks_qdox_qdox_2_0_M7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_apache_maven_maven_aether_provider_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_apache_maven_maven_artifact_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_apache_maven_maven_core_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_apache_maven_maven_model_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_apache_maven_maven_model_builder_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_apache_maven_maven_settings_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_apache_maven_maven_settings_builder_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_apache_maven_plugins_maven_compiler_plugin_3_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_incremental_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_utils_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_api_2_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_javac_2_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_manager_2_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_codehaus_plexus_plexus_java_0_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_2_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_json_json_20080701.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_ow2_asm_asm_6_0_BETA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_seleniumhq_webdriver_webdriver_chrome_0_9_7376.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_seleniumhq_webdriver_webdriver_common_0_9_7376.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_seleniumhq_webdriver_webdriver_remote_client_0_9_7376.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_seleniumhq_webdriver_webdriver_remote_common_0_9_7376.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_seleniumhq_webdriver_webdriver_support_0_9_7376.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_sonatype_aether_aether_api_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_sonatype_aether_aether_impl_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_sonatype_aether_aether_spi_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_sonatype_aether_aether_util_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_sonatype_plexus_plexus_cipher_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_sonatype_sisu_sisu_guice_noaop_2_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_bean_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_plexus_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/libraries/Maven__org_testng_testng_6_14_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/SDBS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/src/test/java/company/GridPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/src/test/java/company/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/src/test/java/company/ImportPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/src/test/java/company/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/src/test/java/company/SDBStest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/src/test/java/company/SDBStestRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/src/test/java/company/SettingsAddCustomerPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/src/test/java/company/SettingsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/src/test/java/company/StatusPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/src/test/java/company/Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/target/test-classes/company/GridPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/target/test-classes/company/HomePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/target/test-classes/company/ImportPage$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/target/test-classes/company/ImportPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/target/test-classes/company/LoginPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/target/test-classes/company/SDBStest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/target/test-classes/company/SDBStestRun.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/target/test-classes/company/SettingsAddCustomerPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/target/test-classes/company/SettingsPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/target/test-classes/company/StatusPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS/SDBS-master/SDBS/target/test-classes/company/Tests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDBS2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/IteratorComparatorTask.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/out/production/IteratorComparatorTask/Comparator/Iterator/CompareByAge.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/out/production/IteratorComparatorTask/Comparator/Iterator/CompareByFirstName.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/out/production/IteratorComparatorTask/Comparator/Iterator/CompareByLastName.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/out/production/IteratorComparatorTask/Comparator/Iterator/IteratorEngine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/out/production/IteratorComparatorTask/Comparator/Iterator/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/out/production/IteratorComparatorTask/Comparator/Iterator/StudentsDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/out/production/IteratorComparatorTask/collections/set/Hash/SetDemo$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/out/production/IteratorComparatorTask/collections/set/Hash/SetDemo$StringByLengthComparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/out/production/IteratorComparatorTask/collections/set/Hash/SetDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/out/production/IteratorComparatorTask/collections/set/Hash/Tasks/set.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/out/production/IteratorComparatorTask/map/MapDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/src/Comparator/Iterator/CompareByAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/src/Comparator/Iterator/CompareByFirstName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/src/Comparator/Iterator/CompareByLastName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/src/Comparator/Iterator/IteratorEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/src/Comparator/Iterator/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/src/Comparator/Iterator/StudentsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/src/collections/set/Hash/SetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/src/collections/set/Hash/Tasks/set.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentTrainingTask/src/map/MapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/justTraining.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/loremIpsumFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/drillOnStream/Start.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/in/out/Ham.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/in/out/Ingredients.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/in/out/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/in/out/Pizza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/in/out/PizzaIngredients.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/in/out/Tomato.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/person/Battle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/person/Description.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/person/Enemy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/person/Gender$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/person/Gender$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/person/Gender.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/person/Hero.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/person/MeleeWeapon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/person/Mortal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/person/Races$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/person/Races$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/person/Races.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/person/Sword.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/person/Talent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/person/Warrior.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/person/Weapons.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/person/Zombie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/stream/StreamMain$Worker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/stream/StreamMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/streamLambda/homeTask/Launcher$Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/streamLambda/homeTask/Launcher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/streams/MainStreams.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/streams/SameStreamsTraining$Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/out/production/justTraining/streams/SameStreamsTraining.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/drillOnStream/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/in/out/Ham.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/in/out/Ingredients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/in/out/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/in/out/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/in/out/PizzaIngredients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/in/out/Tomato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/person/Battle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/person/Description.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/person/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/person/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/person/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/person/MeleeWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/person/Mortal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/person/Races.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/person/Sword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/person/Talent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/person/Warrior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/person/Weapons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/person/Zombie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/stream/StreamMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/streamLambda/homeTask/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/streams/MainStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../justTraining/src/streams/SameStreamsTraining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/out/production/untitled/Course.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/out/production/untitled/com/company/Activatable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/out/production/untitled/com/company/Loadable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/src/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CCC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CCC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphizm/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphizm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Archer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Archer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Mage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Mage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/TrainingGround.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/TrainingGround.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Warrior.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/out/production/Polymorphizm/Warrior.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphizm/src/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/src/Archer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphizm/src/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/src/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphizm/src/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/src/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphizm/src/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/src/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphizm/src/TrainingGround.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/src/TrainingGround.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphizm/src/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphizm/src/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/out/production/untitled/com/company/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/out/production/untitled/com/company/Computer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jcdb/ConnectMySQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jcdb/ConnectMySQL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jcdb/FabricMySQLDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jcdb/FabricMySQLDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xml/XMLparser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xml/XMLparser.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -569,9 +19,9 @@
     <session id="1352009299">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -582,7 +32,9 @@
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.84" value="1" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -627,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cooking/salad/CookSalad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="1785">
               <caret line="117" selection-start-line="117" selection-end-line="117" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -640,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/entities/Vegetable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
+            <state relative-caret-position="629">
               <caret line="51" column="13" selection-start-line="50" selection-start-column="3" selection-end-line="53" selection-end-column="5" />
             </state>
           </provider>
@@ -649,11 +101,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jcdb/ConnectMySQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="1105">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#299#310#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -662,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/xml/XMLparser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="119">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -675,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/src/utils/ConsolePrinter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -686,12 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jcdb/BDinit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="255">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -794,11 +241,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-925" />
-    <option name="y" value="34" />
-    <option name="width" value="878" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-3846" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -806,6 +252,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -857,19 +306,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="data base&#9;PSI&#9;JAVA://com.mysql.cj.jdbc.ConnectionImpl#database" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557743856569" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557744236409" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jdbc/mysql-connector-java-8.0.16/mysql-connector-java-8.0.16.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -990,14 +436,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-3846" y="0" width="1936" height="1056" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5005417" side_tool="true" weight="0.18869936" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49945828" visible="true" weight="0.19509594" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49945828" visible="true" weight="0.20149253" />
       <window_info id="Structure" order="6" sideWeight="0.5005417" side_tool="true" weight="0.18869936" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.18763326" side_tool="true" weight="0.2567714" />
@@ -1005,7 +451,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.8123667" visible="true" weight="0.37378114" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.8123667" weight="0.37378114" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -1050,6 +496,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1169,9 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1206,35 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Vegetable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="51" column="13" selection-start-line="50" selection-start-column="3" selection-end-line="53" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jcdb/BDinit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jcdb/ConnectMySQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#299#310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/xml/parsers/SAXParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1304">
@@ -1242,13 +661,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/atMentoring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" lean-forward="true" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/atMentoring.xml" />
     <entry file="file://$PROJECT_DIR$/atMentoring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1263,9 +676,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/xml/XMLSaladInfo.java" />
+    <entry file="file://$PROJECT_DIR$/src/xml/MyHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/xml/SAXParser.java" />
     <entry file="file://$PROJECT_DIR$/src/cooking/salad/CookSalad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="1785">
           <caret line="117" selection-start-line="117" selection-end-line="117" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1274,41 +690,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xml/XMLparser.java">
+    <entry file="file://$PROJECT_DIR$/src/entities/Vegetable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="629">
+          <caret line="51" column="13" selection-start-line="50" selection-start-column="3" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jcdb/ConnectMySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xml/XMLSaladInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/xml/XMLparser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="119">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xml/MyHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/jcdb/BDinit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="44" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xml/SAXParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/ConsolePrinter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
