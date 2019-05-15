@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11cab1d5-a861-41aa-a4d7-c1eadb4986d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jcdb/ConnectMySQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jcdb/ConnectMySQL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jcdb/FabricMySQLDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jcdb/FabricMySQLDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xml/XMLparser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xml/XMLparser.class" afterDir="false" />
-    </list>
+    <list default="true" id="11cab1d5-a861-41aa-a4d7-c1eadb4986d6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -241,8 +236,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-3846" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1923" />
+    <option name="y" value="12" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
