@@ -69,12 +69,8 @@ public class CookSalad {
 //                    в чём смысл кетча эксепшена который ты и бросил, тем более в том же месте?
                     //перехватил несуществующий инстанс (если ты про логику - то это просто тренировка - создал свой эксепшн
                     case 2:
-                        try {
-                            throw new CaseTwoNotExistException(choice);
-                        } catch (CaseTwoNotExistException me) {
-                            System.out.println(me.getMessage());
-                        }
-                        break;
+
+                        throw new CaseTwoNotExistException(choice);
 
                     case 3:
 
